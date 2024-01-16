@@ -1,5 +1,5 @@
 # PopCork
-## Popcork is a Social Media app companion which allows users users who are connected to a particular group, activity, or event to:
+## Popcork is a Social Media companion app which allows users users who are connected to a particular group, activity, or event to:
 ## -Share Memories
 ## -Share Photos
 ## -Coordinate Travel Plans
