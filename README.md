@@ -1,35 +1,101 @@
-# PopCork
-## Popcork is a Social Media companion app which allows users who are connected to a particular group, activity, or event to:
-## -Share Memories
-## -Share Photos
-## -Coordinate Travel Plans
-## -Share Experiences
-## -Tell Stories
-## -(Future Functionality) Video conferencing with live chat, emoji emoticons, and document/photo sharing (with deep controlled permissions which are intuative and easy to use); which can all be viewed later by incoming members of the group, integrating of google maps for finding locations, landmarks etc.
+# PopCork — Semi-Decentralized Social Media Platform
 
-### Video Spaces & Live Communication — Powered by HuddleBridge
+**Group-centered social media for shared memories, experiences, and live communication.**
 
-PopCork will leverage **[HuddleBridge](https://github.com/bytewizard42i/huddlebridge_app_me_us)** (huddlebridge.app) as its native video spaces engine. HuddleBridge provides:
+**Company**: [EnterpriseZK Labs LLC](https://enterprisezk.com)  
+**Blockchain**: [Midnight Network](https://midnight.network)  
+**Status**: Planning
 
-- **Anti-rug technology** — Spaces don't die when the host disconnects. Smart session persistence auto-promotes the next qualified moderator.
-- **HodlBridge** — During signal outages, participants are intelligently held rather than dropped. Automatic reconnection when connectivity returns.
-- **Signal monitoring** — Real-time connection quality tracking with predictive alerts before disconnections happen.
-- **Soulbound participation** — Non-transferable proof-of-attendance tokens tied to DIDz. Prove you were there.
-- **Session memory** — Every space remembers who participated, what was discussed, and what was decided. Searchable and verifiable.
-- **Proof of authority** — Hosts and speakers verify credentials via DIDz without exposing personal data.
-- **Reputation system** — Earned across all spaces, portable via DIDz.
-- **Plug-in architecture** — HuddleBridge is designed as infrastructure for all social media, making PopCork's spaces interoperable.
-## -The entire space for each event, activity, or group are accessible through QR code or a special invisible QR code jpg overlay called, jpgportal.
-### Business Plan:
-<p>PopCork is designed to follow a similar business plan to that of GoPro cameras, where certain groups  
-  could share their photos, experiences, and common interests, to help create Popcork brand awareness and a cult following.</p>
-  
-### Backstory for PopCork:
-#### The Corkboard
-#### The Funeral
-#### Christmas
+---
 
-### How PopCork works:
-<p>The magic of the Popcork app is in using QR codes for easy access to groups or one may use a very  
-  special invisible QR-code/jpg hybrid. (See jpgportal.me repository) </p>
+## What Is PopCork?
 
+PopCork is a social media companion app for groups, activities, and events. Think of it as a **privacy-preserving, DIDz-verified group memory platform** where participants can:
+
+- **Share memories & photos** — Group-owned media with controlled permissions
+- **Coordinate travel plans** — Integrated maps, location sharing, logistics
+- **Share experiences & tell stories** — Threaded narratives tied to events
+- **Video spaces** — Live communication powered by HuddleBridge
+- **Persistent group archives** — New members can catch up on everything that happened before they joined
+
+---
+
+## Video Spaces — Powered by HuddleBridge
+
+PopCork uses **[HuddleBridge](https://github.com/bytewizard42i/huddlebridge_app_me_us)** as its native video spaces engine:
+
+- **Anti-rug technology** — Spaces survive host disconnection via smart session persistence
+- **HodlBridge** — Participants held during signal outages, auto-reconnect on return
+- **Signal monitoring** — Real-time connection quality with predictive alerts
+- **Soulbound participation** — Non-transferable proof-of-attendance tokens tied to DIDz
+- **Session memory** — Every space remembers who participated, what was discussed, and what was decided
+- **Proof of authority** — Hosts verify credentials via DIDz without exposing personal data
+- **Reputation system** — Earned across all spaces, portable via DIDz
+- **Plug-in architecture** — Interoperable with other platforms in the ecosystem
+
+---
+
+## QR Code Access — Powered by jpgPortal
+
+The magic of PopCork is frictionless access:
+
+- **Standard QR codes** for instant group/event entry
+- **Invisible QR code/jpg hybrid** via [jpgPortal](https://github.com/bytewizard42i/jpgPortal) — a QR code embedded invisibly in any image. Scan a photo, join the group.
+
+---
+
+## Business Model
+
+Inspired by GoPro's community-driven strategy: groups sharing photos, experiences, and common interests create organic brand awareness and cult following. Revenue through:
+
+- **Premium group features** — Enhanced storage, advanced permissions, analytics
+- **Event sponsorship** — Brands sponsor events with verified, engaged attendees
+- **Soulbound collectibles** — Commemorative proof-of-attendance tokens for special events
+
+---
+
+## Part of the DIDz Ecosystem
+
+PopCork leverages multiple ecosystem products:
+
+| Integration | Product | Purpose |
+|------------|---------|---------|
+| **Identity** | [DIDz.io](https://github.com/bytewizard42i/didz-dapp-system) | Verified participants, privacy-preserving group membership |
+| **Video** | [HuddleBridge](https://github.com/bytewizard42i/huddlebridge_app_me_us) | Live video spaces with anti-rug tech |
+| **QR Access** | jpgPortal | Invisible QR code/jpg hybrid for frictionless entry |
+| **Networking** | [ProMingle.net](https://github.com/bytewizard42i/ProMingle_net) | Professional event crossover |
+| **Dating** | [SouLink.me](https://github.com/bytewizard42i/SouLink_me) | Social event coordination |
+| **Diagnostics** | [MidnightVitals](https://github.com/bytewizard42i/MidnightVitals) | Real-time monitoring |
+
+---
+
+## Technology Stack (Planned)
+
+- **Blockchain**: Midnight Network (privacy, ZK proofs)
+- **Smart Contracts**: Compact language
+- **Identity**: DIDz.io (verified group membership)
+- **Video**: HuddleBridge (LiveKit-powered)
+- **Frontend**: React + TypeScript + TailwindCSS
+- **Backend**: Bun / TypeScript
+- **QR Technology**: jpgPortal invisible QR/jpg hybrid
+
+---
+
+## The Backstory
+
+PopCork was inspired by three moments: **The Corkboard** (pinning shared memories), **The Funeral** (wanting to preserve group memories before they fade), and **Christmas** (the joy of shared experiences that deserve to be captured and revisited).
+
+---
+
+## Build Pipeline
+
+```
+Ideation → Architecture → DemoLand → Backend Skeleton → RealDeal
+    ▲
+WE ARE HERE
+```
+
+---
+
+*EnterpriseZK Labs LLC — [enterprisezk.com](https://enterprisezk.com)*  
+*Built on Midnight. Powered by Cardano. Protected by zero-knowledge cryptography.*
