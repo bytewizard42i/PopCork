@@ -35,6 +35,38 @@ PopCork uses **[HuddleBridge](https://github.com/bytewizard42i/huddlebridge_app_
 
 ---
 
+## Credential Verification — Powered by DIDz.io & KYCz
+
+Event organizers and group hosts can prove their credentials without exposing personal data:
+
+- **Verified hosts** — Prove professional certifications, memberships, or authority via ZK proofs
+- **Trusted events** — Attendees know the organizer is legitimate before joining
+- **Three-part verification** — DIDz identity + KYCz compliance + credential proof, all privacy-preserving
+- **Proof of education** — Hosts can prove degrees or certifications without revealing institutions
+- **Proof of membership** — Verify organizational affiliation without exposing member details
+
+---
+
+## Governance & Moderation — Consensus-Based Fairness
+
+PopCork groups are governed by their members, not by platform administrators:
+
+- **Fair removal policies** — Members cannot be removed for personal views; removal requires genuine safety violations
+- **Consensus-based moderation** — Removal decisions require a vote by group members, not arbitrary admin rulings
+- **Transparent safety standards** — Focused on universally unacceptable content (threats, exploitation)
+- **On-chain voting** — Moderation decisions recorded on Midnight for transparency and immutability
+- **Reputation portability** — Good standing in one group carries weight across the ecosystem via DIDz
+
+---
+
+## Location-Aware Events — Powered by GeoZ
+
+- **Privacy-preserving geolocation** — Prove you're in the right area for an event without revealing your exact location
+- **Geo-fenced groups** — Local communities, neighborhood groups, regional events
+- **Proof of attendance** — Verify physical presence at events via ZK geolocation proofs + soulbound tokens
+
+---
+
 ## QR Code Access — Powered by jpgPortal
 
 The magic of PopCork is frictionless access:
@@ -64,6 +96,8 @@ PopCork leverages multiple ecosystem products:
 | **Video** | [HuddleBridge](https://github.com/bytewizard42i/huddlebridge_app_me_us) | Live video spaces with anti-rug tech |
 | **QR Access** | jpgPortal | Invisible QR code/jpg hybrid for frictionless entry |
 | **Networking** | [ProMingle.net](https://github.com/bytewizard42i/ProMingle_net) | Professional event crossover |
+| **Geolocation** | [GeoZ](https://github.com/bytewizard42i/GeoZ) | Privacy-preserving proof of location for events |
+| **KYC** | [KYCz](https://github.com/bytewizard42i/KYCz_us_app) | Zero-knowledge organizer/host verification |
 | **Dating** | [SouLink.me](https://github.com/bytewizard42i/SouLink_me) | Social event coordination |
 | **Diagnostics** | [MidnightVitals](https://github.com/bytewizard42i/MidnightVitals) | Real-time monitoring |
 
@@ -78,6 +112,8 @@ PopCork leverages multiple ecosystem products:
 - **Frontend**: React + TypeScript + TailwindCSS
 - **Backend**: Bun / TypeScript
 - **QR Technology**: jpgPortal invisible QR/jpg hybrid
+- **Geolocation**: GeoZ (privacy-preserving location proofs)
+- **KYC**: KYCz (zero-knowledge organizer verification)
 
 ---
 
